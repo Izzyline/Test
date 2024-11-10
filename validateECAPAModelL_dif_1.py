@@ -21,7 +21,7 @@ parser.add_argument("--lr_decay",   type=float, default=0.97,    help='Learning 
 ## Training and evaluation path/lists, save path
 parser.add_argument('--initial_model', 
 					type=str, 
-					default="results/data_3_1_apple_retrain/model/model_0016.model", 
+					default="results/results/data_3_1_apple_retrain/model/model_0016.model", 
 					help='Path of the initial_model')
 # parser.add_argument('--train_path', 
 # 					type=str, 
